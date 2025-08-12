@@ -17,4 +17,6 @@
 6. git checkout <file-name>/<branch-name> -> matches the file with the last commit 
      6.1 git checkout -f -> all the files will be restored according to the last commit you made.
 
+7. git log -> shows you the commit that you have made basically logs. 
+       7.1 git log -p -1 -> Filtering how many commits you want to check, also shows you the changes that you have made. Shows the output of the git diff. 
 
