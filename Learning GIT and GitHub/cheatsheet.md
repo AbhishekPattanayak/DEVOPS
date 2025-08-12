@@ -14,4 +14,7 @@
 
 5. git commit -m "Message" -> Commits the files with a message. 
 
+6. git checkout <file-name>/<branch-name> -> matches the file with the last commit 
+     6.1 git checkout -f -> all the files will be restored according to the last commit you made.
+
 
