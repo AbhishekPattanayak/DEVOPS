@@ -19,4 +19,7 @@
 
 7. git log -> shows you the commit that you have made basically logs. 
        7.1 git log -p -1 -> Filtering how many commits you want to check, also shows you the changes that you have made. Shows the output of the git diff. 
+ 
+8. git diff -> Compares the working file with the staging area file and shows the difference. 
 
+9. git diff --staged -> Compares the staged area with the last commit
