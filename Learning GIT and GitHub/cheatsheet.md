@@ -29,4 +29,7 @@
 11. git rm -> removes from working directory and staging area.
     11.1 git rm --cached <file-name> -> only removes the file from the staging area.
 
-12. 
+12. git status -s -> shows the shorter version of the status (First M shows that the file has entered the staging area, the second space shows that the file has been modified in the working tree)
+
+13. git ignore -> Youy cant make this directly in your folder, make this from the bash terminal, Some of the files you will want to ignore. You dont want to track these files. syntax -> touch .gitignore 
+       - Add the files in the .gitignore which you want to ignore and dont want to push to the staging area. Can be some logs file etc. 
