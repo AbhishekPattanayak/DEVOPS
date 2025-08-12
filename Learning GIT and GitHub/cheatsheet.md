@@ -25,3 +25,8 @@
 9. git diff --staged -> Compares the staged area with the last commit
 
 10. git commit -a -m "<Message>"->  -a -> adds, -m -> message
+
+11. git rm -> removes from working directory and staging area.
+    11.1 git rm --cached <file-name> -> only removes the file from the staging area.
+
+12. 
