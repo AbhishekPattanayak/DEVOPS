@@ -1,0 +1,23 @@
+Linux Fundamentals [00:25]: Focus on understanding the backbone of servers and development environments. This includes learning Bash, basic Linux commands for file systems, permissions, processes, and package management.
+
+Networking Concepts [01:01]: Learn how computers communicate, including IP addresses and protocols. Key areas are OSI and TCP/IP models, IP addressing, DNS, DHCP, networking protocols (HTTP, HTTPS, FTP, SSH), firewalls, and basic troubleshooting tools like Ping and Traceroute.
+
+Git [01:36]: Master this version control system for tracking code changes and collaboration. Learn basic Git commands (clone, commit, push, pull), branching, merging, and working with remote repositories.
+
+Programming Languages [02:03]: Python is highly recommended for automation and configuration management. Study Python syntax, data structures, modules, packages, file handling, error handling, and scripting.
+
+Cloud Providers [03:06]: Focus on one major cloud provider, with AWS being a recommended starting point. Learn to launch, configure, and manage virtual servers, store data, manage users and roles, and set up isolated networks.
+
+Containerization [03:34]: Get comfortable with Docker for packaging applications and their dependencies. Learn to create Docker images, manage containers, write Dockerfiles, and use Docker Compose for multi-container applications.
+
+Continuous Integration and Deployment (CI/CD) [04:05]: Understand how to automate code integration and deployment. Jenkins is suggested as a primary tool; learn to create and manage pipelines, write Jenkins files, integrate automated tests, and automate build and deployment processes.
+
+Orchestration and Management [04:52]: Focus on Kubernetes for automating the deployment, scaling, and management of containerized applications. Learn about its architecture (master/worker nodes), key components (pods, services, deployments), resource management, scaling, and networking model.
+
+Networking and Infrastructure Services [05:29]: Learn to set up and manage services like reverse proxies, forward proxies, caching servers, firewalls, and load balancers. Nginx is recommended for reverse proxying and load balancing.
+
+Configuration Management [06:02]: Automate server and application deployment and configuration. Ansible is recommended for its simplicity; learn to write playbooks, use roles and modules, and manage variables and templates.
+
+Infrastructure as Code (IaC) [06:29]: Manage and provision infrastructure using machine-readable configuration files. Terraform is suggested for its flexibility; learn basic concepts (providers, resources), configuration files, modules, workspaces, and remote state.
+
+Monitoring and Logging [07:02]: Track application and infrastructure performance and health. Prometheus and Grafana are recommended tools; learn Prometheus architecture, metric collection, query writing, and alert setup.
