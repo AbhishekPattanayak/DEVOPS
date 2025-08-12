@@ -23,3 +23,5 @@
 8. git diff -> Compares the working file with the staging area file and shows the difference. 
 
 9. git diff --staged -> Compares the staged area with the last commit
+
+10. git commit -a -m "<Message>"->  -a -> adds, -m -> message
