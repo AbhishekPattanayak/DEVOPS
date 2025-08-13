@@ -42,3 +42,7 @@
 16. git branch -> Shows you the branches present. 
 
 17. git checkout feature1 -> switches to the feature1 branch
+
+18. git checkout master -> checkout to the master branch.
+
+19. git merge <branch-name> -> If you want to merge your changes to the master branch. Switch to master branch and run git merge <branch-name>
