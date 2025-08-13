@@ -52,3 +52,13 @@
 21. git checkout -b <branch-name>  -> creates the branch and takes you to the branch "-b" is the branch flag. 
 
 22. Github is a service which hosts GIT. This is sort of a online repository where you can store your codes. 
+
+23. git remote add origin <repo-link> - adding the repository and naming as remote. 
+
+24. git remote remove origin - removing the origin. 
+
+25. git push origin master - Pushing the changes to the master branch
+
+26. Do the SSH setup to connect the local repo with the remote repo. 
+
+25. git remote set-url origin "<SSH-URL>"
