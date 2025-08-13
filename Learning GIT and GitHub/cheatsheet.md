@@ -35,4 +35,10 @@
        - Add the files in the .gitignore which you want to ignore and dont want to push to the staging area. Can be some logs file etc. 
        - You can ignore whole folders, you will have to add the <folder-name>/
 
-14. 
+14. Main branch -> Master, so you dont want to make any changes on the master branch. Instead you want to create a separate branch. 
+
+15. git branch <branch-name> -> This command will create a new branch. 
+
+16. git branch -> Shows you the branches present. 
+
+17. git checkout feature1 -> switches to the feature1 branch
