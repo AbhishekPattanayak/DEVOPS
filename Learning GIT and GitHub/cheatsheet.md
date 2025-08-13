@@ -50,3 +50,5 @@
 20. To merge master branch and the other branch first, fisrt commit your changes in the other branch then switch to the master branch and run the "git merge <branch-name>" command
 
 21. git checkout -b <branch-name>  -> creates the branch and takes you to the branch "-b" is the branch flag. 
+
+22. Github is a service which hosts GIT. This is sort of a online repository where you can store your codes. 
