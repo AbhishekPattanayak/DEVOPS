@@ -46,3 +46,7 @@
 18. git checkout master -> checkout to the master branch.
 
 19. git merge <branch-name> -> If you want to merge your changes to the master branch. Switch to master branch and run git merge <branch-name>
+
+20. To merge master branch and the other branch first, fisrt commit your changes in the other branch then switch to the master branch and run the "git merge <branch-name>" command
+
+21. git checkout -b <branch-name>  -> creates the branch and takes you to the branch "-b" is the branch flag. 
