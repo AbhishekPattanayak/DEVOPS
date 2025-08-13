@@ -33,3 +33,6 @@
 
 13. git ignore -> Youy cant make this directly in your folder, make this from the bash terminal, Some of the files you will want to ignore. You dont want to track these files. syntax -> touch .gitignore 
        - Add the files in the .gitignore which you want to ignore and dont want to push to the staging area. Can be some logs file etc. 
+       - You can ignore whole folders, you will have to add the <folder-name>/
+
+14. 
