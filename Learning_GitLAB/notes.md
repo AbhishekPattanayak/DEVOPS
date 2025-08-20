@@ -15,4 +15,19 @@
 4. Understanding GitLAB logs :- The logs provide you with a keyword called as runners - Runners are small, may be docker instances on which the pipelines run. 
 
 
-5. So basically if you create a 
+5. So basically if you create tasks , the tasks would run parallely and there is a chance of the deploy stage being completed first which would fail. So stages are necessary to define which set of taskd should run first. 
+
+6. Stages example:- 
+
+stages:  #You declared two stages. 
+    - build_stage
+    - deploy_stage
+
+build:
+    stage: build_stage  #Here you are defining which stage is which. 
+    script:
+        - apt update -y
+deploy:
+    stage: deploy_stage
+    script:
+        - echo "whatever"
