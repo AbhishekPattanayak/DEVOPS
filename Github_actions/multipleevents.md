@@ -1,4 +1,4 @@
-on:  #The trigger happens on push, pull on the main and release events 
+on:  #The trigger happens on push, pull on the main and release events to publish and created
     push:
         branches:
             - main
