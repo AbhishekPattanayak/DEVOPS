@@ -28,6 +28,57 @@ build:
     script:
         - apt update -y
 deploy:
-    stage: deploy_stage
+    stage: deploy_stage   #Here is the second stage
     script:
         - echo "whatever"
+
+7. Artifact - suppose the first build stage is downloading dependancies and the second stage should use the dependacies - this is just an example to understand artifact where the files/folders you create in any of the stages can be retained. 
+
+
+8. Example of how you can use artifact:-
+
+stages:
+    -build_stage
+    -deploy_stage
+
+build:
+    stage: build_stage
+    script:
+        - touch mylog.txt
+    artifact:
+        paths:
+            - "Name of the file" #This is the file that you want to pass onto the next stage to execute
+
+deploy:
+    stage: deploy_stage
+    script:
+        - echo "Whatever"
+
+9. Suppose you are deploying an application it will run on a continous loop, you can send the output to /dev/null 2>&1 & -> you atre sending standard error and standard output to null and & means the job or script will run on the background. 
+
+10. You can also specify the images for your docker image in the Gitlab. 
+
+stages:
+    -build_stage
+    -deploy_stage
+
+build:
+    stage: build_stage
+    image: node  #This will change the image to node instead of the default image.  
+    script:
+        - touch mylog.txt
+    artifact:
+        paths:
+            - "Name of the file" #This is the file that you want to pass onto the next stage to execute
+
+deploy:
+    stage: deploy_stage
+    image: node #This will change the image to node instead of the default image.
+    script:
+        - echo "Whatever"
+
+11. GitLab runners :- Observation, Runners are basically small instances which are used to run the CI/CD jobs. 
+
+        - Gitlab SAAS Runners (These are shared runners and are managed by Gitlab)
+
+        - Self managed Runners (Specific to your Project)
