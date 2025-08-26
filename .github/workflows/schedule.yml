@@ -1,0 +1,11 @@
+name: schedule_event
+on:  
+  schedule:
+      - cron '*/5 * * * *' #every two minutes
+jobs:
+  show_info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Info
+        run: |
+          echo "This is a push event on all the branches"
