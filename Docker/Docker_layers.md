@@ -8,3 +8,6 @@
 
 4. What docker does is if two instances for example of MYSQL is present, some of the layers might exist already. so docker uses those layers to create the latest container. 
 
+![alt text](image-3.png)
+
+5. 
