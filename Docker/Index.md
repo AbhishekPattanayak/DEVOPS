@@ -11,7 +11,7 @@
     10.1 Services
     10.2 Port Mapping
     10.3 Env variables
-    10.4 Vo0lumes
+    10.4 Volumes
 11. Publishing to DockerHub
 12. Layering in Docker Images
 13. Volume Mounting
